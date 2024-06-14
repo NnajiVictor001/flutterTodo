@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 import 'package:todo_app/screens/home/home.dart';
 
 void main() async {
+  // debugPaintSizeEnabled = true;
   // Set the system UI overlay style, which controls the appearance of the status bar and navigation bar.
   SystemChrome.setSystemUIOverlayStyle(const SystemUiOverlayStyle(
     systemNavigationBarColor: Color.fromRGBO(94, 114, 228, 1.0),

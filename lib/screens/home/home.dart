@@ -134,6 +134,7 @@ class _HomeState extends State<Home> {
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                 children: <Widget>[
+                  // Expanded(
                   Padding(
                     padding: const EdgeInsets.symmetric(
                         horizontal: 0, vertical: 0.0),
@@ -142,7 +143,7 @@ class _HomeState extends State<Home> {
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
                         CircularPercentIndicator(
-                          radius: 110.0,
+                          radius: 60.0,
                           lineWidth: 5.0,
                           animation: true,
                           percent: 0.75,
